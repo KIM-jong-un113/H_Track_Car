@@ -1,5 +1,8 @@
-# 编译输出
-Debug/
+# 编译产物（Debug 目录：保留配置文件/链接器脚本，忽略 .o/.out/.map）
+Debug/*.o
+!Debug/startup_mspm0g350x_ticlang.o
+Debug/*.out
+Debug/*.map
 
 # IDE 配置
 .theia/
